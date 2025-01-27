@@ -1,0 +1,4 @@
+# Replace with your Databricks workspace URL
+workspace_url = 'https://<your-databricks-instance>.databricks.com'  
+ # Replace with your Databricks personal access token
+ token = '<your-personal-access-token>' 
