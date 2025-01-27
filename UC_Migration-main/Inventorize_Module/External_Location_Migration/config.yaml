@@ -1,0 +1,14 @@
+# config.py
+
+# AWS S3 credentials and bucket for external locations
+AWS_ACCESS_KEY = "your_aws_access_key"
+AWS_SECRET_KEY = "your_aws_secret_key"
+S3_BUCKET = "your_s3_bucket_name"          # The main S3 bucket for tables
+
+# Hive and Unity Catalog details
+SOURCE_DATABASE = "default"                 # Hive metastore source catalog
+TARGET_CATALOG = "ucx_migration_priyansh"   # Unity Catalog target catalog
+
+# External location settings
+TABLE_LOCATION_PREFIX = f"s3://{S3_BUCKET}/tables"  # Base S3 path for table locations
+EXTERNAL_ROLE = "your_databricks_iam_role"          # Databricks IAM role for S3 access
