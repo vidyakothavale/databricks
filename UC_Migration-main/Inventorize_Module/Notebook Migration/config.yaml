@@ -1,0 +1,4 @@
+DATABRICKS_Host : Enter DATABRICKS_URL #workspace URL e.g https://dbc-<your-unique-id>.cloud.databricks.com
+DATABRICKS_TOKEN : Enter DATABRICKS_TOKEN
+UC_CATALOG_NAME : Enter Catalog_Name
+UPDATED_DIRECTORY : Enter Directory Path # /Workspace/Shared/
